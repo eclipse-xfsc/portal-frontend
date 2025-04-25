@@ -1,0 +1,64 @@
+.provide-header {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.provide-header-description {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.provide-upload {
+    text-align: left;
+}
+
+.provide-upload-file {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.provide-button-area {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.provide-button-area button {
+    width: 140px;
+}
+
+.provide-button-area button:first-child {
+    margin-left: 0;
+}
+
+.provide-attribute-table {
+    min-width: 470px;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 15px;
+    
+    font-weight: normal;
+    border-collapse: collapse;
+}
+
+.provide-attribute-table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.provide-attribute-table tr{
+    border-bottom: 1px solid #E9E9E9 ;
+}
+
+.provide-attribute-table thead {
+ color: #bababa;
+}
+
+.provide-attribute-table tr.invalid {
+    color: #EE1D23;
+}
+   

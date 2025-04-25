@@ -1,0 +1,72 @@
+/* What's new */
+
+
+/* Auto layout */
+.articles-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    
+    /* Background/White */
+    background: #FFFFFF;
+}
+/* panels */
+
+
+/* Auto layout */
+.articles-panel-layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* Inside auto layout */
+    flex: none;
+    align-self: auto;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+    margin-top: 40px;
+}
+
+
+
+/* Auto layout */
+.article-header-message{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 2;
+    margin: 0px 0px;
+}
+
+/* H2 */
+.article-header-message h2{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+}
+
+.article-header-message p{
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.25px;
+color: #2A2A2A;
+text-align: left;
+}
